@@ -1,0 +1,168 @@
+{
+	"info": {
+		"_postman_id": "99e12264-554e-4711-b8ae-7279a9db2a40",
+		"name": "EmployeeApp",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetEmployee",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJfaWQiOjEsInJvbGVfaWQiOjEsInVzZXJfbmFtZSI6ImFydW5rdW1hcjIyMjk1MUBnbWFpbC5jb20iLCJwYXNzd29yZCI6InF3ZXJ0eSJ9LCJpYXQiOjE2NDA1MTMwMzgsImV4cCI6MTY0MDUxNjYzOH0.ycRm3_Zr4yvy85ZXWcGMz7_vBfGT33eo-7WE_mh-PAg",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3400/getemployee",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3400",
+					"path": [
+						"getemployee"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJfaWQiOjEsInJvbGVfaWQiOjEsInVzZXJfbmFtZSI6ImFydW5rdW1hcjIyMjk1MUBnbWFpbC5jb20iLCJwYXNzd29yZCI6InF3ZXJ0eSJ9LCJpYXQiOjE2NDA1MTMwMzgsImV4cCI6MTY0MDUxNjYzOH0.ycRm3_Zr4yvy85ZXWcGMz7_vBfGT33eo-7WE_mh-PAg",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3400/delete/8",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3400",
+					"path": [
+						"delete",
+						"8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJfaWQiOjEsInJvbGVfaWQiOjEsInVzZXJfbmFtZSI6ImFydW5rdW1hcjIyMjk1MUBnbWFpbC5jb20iLCJwYXNzd29yZCI6InF3ZXJ0eSJ9LCJpYXQiOjE2NDA1MTMwMzgsImV4cCI6MTY0MDUxNjYzOH0.ycRm3_Zr4yvy85ZXWcGMz7_vBfGT33eo-7WE_mh-PAg",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"Employee name\": \"Thinesh\",\n        \"Email\": \"jamesfct@yopmail.com\",\n        \"Date of join\": \"05-06-2016\",\n        \"Password\": \"FCT0001\"\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3400/update/0",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3400",
+					"path": [
+						"update",
+						"0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CheckAuth",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJfaWQiOjEsInJvbGVfaWQiOjEsInVzZXJfbmFtZSI6ImFydW5rdW1hcjIyMjk1MUBnbWFpbC5jb20iLCJwYXNzd29yZCI6InF3ZXJ0eSJ9LCJpYXQiOjE2NDA1MDQ4MDgsImV4cCI6MTY0MDUwODQwOH0.q-8VAl9aUbyRuCqBXvgUvOh6g2Jx90eMuorlwou2JDo",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3400/checkAuth",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3400",
+					"path": [
+						"checkAuth"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
